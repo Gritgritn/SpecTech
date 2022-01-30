@@ -1,0 +1,144 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+aside {
+  background: #f0f0f0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 120px;
+  border-right: 2px black solid;
+}
+ul {
+  list-style: none;
+  padding-left: 15px;
+}
+section {
+  height: 100%;
+  margin-top: 100px;
+}
+header {
+  background: #f0f0f0;
+  height: 100px;
+  left: 0;
+  margin-left: 122px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: calc(100% - 122px);
+  z-index: 99;
+  display: flex;
+  align-items: center
+}
+.container {
+  left: 0;
+  margin-left: 120px;
+  min-height: 100%;
+  position: relative;
+  text-align: center;
+}
+figure {
+  margin: 0;
+}
+
+.menu-icon {
+    background-color: rgb(160, 160, 160);
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 20%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  border: 0;
+  border-bottom: 3px solid black;
+
+  padding-left: 12px;
+  height: 30px;
+}
+:focus{outline: none;}
+::-webkit-input-placeholder {color: black;}
+
+.filter {
+  font-size: 20px;
+  margin: 0 0 0 30px;
+  background: #f0f0f0;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+.login__text {
+  margin-right: 10px;
+}
+
+.filter__container {
+  border-bottom: 2px black solid;
+}
+
+.filter-head__container {
+  display: flex;
+  margin: 0 0 0 30px;
+}
+
+.filter-icon__container {
+  margin-right: 10px;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter__input {
+  padding-top: 10px;
+  background: white;
+  margin-bottom: 28px;
+}
+
+.menu-item__name {
+  align-items: center;
+  margin-left: 30px;
+  display: none;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.wheel {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-line {
+  text-align: start;
+}
+
+.horizontal-line__img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+}
+
+.vertical-line__img {
+  height: 90%;
+  width: 20px;
+  position: absolute;
+  right: 0;
+}
